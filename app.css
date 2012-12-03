@@ -38,7 +38,6 @@ nav {
 }
 
 nav li {
-    padding: 0 10px;
     line-height: 42px;
     border-top: 1px solid #FFF;
     border-bottom: 1px solid #CACACA;
@@ -57,4 +56,18 @@ nav a {
     font-weight: bold;
     text-decoration: none;
     color: #000;
+    display: block;
+    padding: 0 10px;
+    position: relative;
+}
+
+nav a:after {
+    content: "›";
+    position: absolute;
+    top: -3px;
+    right: 10px;
+    font-size: 100%;
+    color: #7b7b7b;
+    font-family: Futura;
+    font-size: 160%;
 }
