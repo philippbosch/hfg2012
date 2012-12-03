@@ -1,5 +1,10 @@
 body {
     font-family: "Helvetica Neue";
+    background: -webkit-linear-gradient(left,
+        #ccd1da 6px,
+        #c9ced8 6px
+    );
+    background-size: 8px 100%;
 }
 
 header {
