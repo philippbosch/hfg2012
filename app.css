@@ -49,8 +49,16 @@ nav li:first-child {
     border-top: 0;
 }
 
+nav li:first-child a {
+    border-radius: 7px 7px 0 0;
+}
+
 nav li:last-child {
     border-bottom: 0;
+}
+
+nav li:last-child a {
+    border-radius: 0 0 7px 7px;
 }
 
 nav a {
@@ -72,4 +80,9 @@ nav a:after {
     color: #7b7b7b;
     font-family: Futura;
     font-size: 160%;
+}
+
+nav a:active {
+    color: #FFF;
+    background: #2362de;
 }
