@@ -4,7 +4,12 @@ body {
 
 header {
     height: 44px;
-    background: #8b9fba;
+    background: -webkit-linear-gradient(
+        rgba(255,255,255,0.85) 1px,
+        #becbdd 1px,
+        #587397 43px,
+        #3f5c80 43px
+    );
 }
 
 h1 {
