@@ -4,9 +4,19 @@ body {
 
 header {
     height: 44px;
-    background: blue;
+    background: #8b9fba;
 }
 
 h1 {
     color: white;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    line-height: 42px;
+    text-shadow: rgba(0,0,0,0.5) 0 -1px;
+}
+
+nav {
+    margin: 10px;
 }
