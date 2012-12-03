@@ -29,4 +29,29 @@ h1 {
 
 nav {
     margin: 10px;
+    background: #F7F7F7;
+    border: 1px solid #b7b9bd;
+    border-radius: 8px;
+}
+
+nav li {
+    padding: 0 10px;
+    line-height: 42px;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #CACACA;
+}
+
+nav li:first-child {
+    border-top: 0;
+}
+
+nav li:last-child {
+    border-bottom: 0;
+}
+
+nav a {
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
 }
