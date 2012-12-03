@@ -5,6 +5,8 @@ body {
         #c9ced8 6px
     );
     background-size: 8px 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
 }
 
 header {
