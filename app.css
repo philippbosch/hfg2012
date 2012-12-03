@@ -87,3 +87,7 @@ nav a:active {
     color: #FFF;
     background: #2362de;
 }
+
+nav a:active:after {
+    color: #FFF;
+}
