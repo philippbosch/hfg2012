@@ -32,6 +32,9 @@ nav {
     background: #F7F7F7;
     border: 1px solid #b7b9bd;
     border-radius: 8px;
+    box-shadow:
+        rgba(0,0,0,0.2) 0 1px 1px inset,
+        #FFF 0 1px;
 }
 
 nav li {
