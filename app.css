@@ -1,0 +1,12 @@
+body {
+    font-family: "Helvetica Neue";
+}
+
+header {
+    height: 44px;
+    background: blue;
+}
+
+h1 {
+    color: white;
+}
