@@ -13,11 +13,20 @@ $(function() {
     });
 
     function captureSuccess(files) {
-
+        var ft = new FileTransfer();
+        ft.upload(files[0].fullPath, 'http://pb.local:5000/upload/', uploadSuccess, uploadError);
     }
 
     function captureError(error) {
+        navigator.notification.alert('Error code: ' + error.code, null, 'Capture Error');
+    }
 
+    function uploadSuccess(result) {
+        navigator.notification.vibrate();
+    }
+
+    function uploadError(error) {
+        console.log('Error uploading file ' + path + ': ' + error.code);
     }
 
     $('.button.snap').on('tap', function() {
