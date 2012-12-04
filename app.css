@@ -45,3 +45,10 @@ p {
         rgba(0,0,0,0.3) 0 1px 1px inset,
         rgba(255,255,255,0.5) 0 1px;
 }
+
+#jqt .back.active {
+    background: -webkit-linear-gradient(#cc2929, #781717);
+    color: #fcb8b8;
+    text-shadow: rgba(0,0,0,0.5) 0 -1px;
+    border-color: #470e0e;
+}
