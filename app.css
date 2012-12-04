@@ -1,3 +1,4 @@
+/* Text Block */
 .textblock {
     margin: 10px;
 }
@@ -6,6 +7,8 @@ p {
     margin-bottom: 16px;
 }
 
+
+/* Lists */
 #jqt ul.edgetoedge li.list-divider {
     font-size: 12px;
     padding-top: 2px;
@@ -19,4 +22,16 @@ p {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+
+/* Branding */
+#jqt .toolbar {
+    background: -webkit-linear-gradient(#ff3334, #ac2122);
+    border-bottom-color: #911c1c;
+}
+
+#jqt .toolbar h1 {
+    color: #FFF;
+    text-shadow: rgba(0,0,0,0.5) 0 -1px;
 }
