@@ -12,7 +12,15 @@ $(function() {
         });
     });
 
+    function captureSuccess(files) {
+
+    }
+
+    function captureError(error) {
+
+    }
+
     $('.button.snap').on('tap', function() {
-        navigator.notification.alert('Take a snapshot!', null, 'Yay');
+        navigator.device.capture.captureImage(captureSuccess, captureError);
     });
 });
