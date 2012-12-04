@@ -57,3 +57,24 @@ p {
     background: #FFF;
     box-shadow: rgba(0,0,0,0.2) 0 1px 1px;
 }
+
+
+/* Concerts */
+
+#jqt #konzerte .date {
+    color: #ac2122;
+    width: 64px;
+    float: left;
+}
+
+#jqt #konzerte .venue, #jqt #konzerte .location {
+    font-size: 14px;
+}
+
+#jqt #konzerte .venue {
+    color: #000;
+}
+
+#jqt #konzerte .location {
+    font-weight: normal;
+}
