@@ -1,0 +1,1 @@
+var jqt = new $.jQTouch();
