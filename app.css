@@ -106,3 +106,12 @@ p {
 #jqt .button.snap.active span {
     background: #fcb8b8;
 }
+
+
+/* Compass/Logo */
+#logo {
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin: 0px auto;
+}

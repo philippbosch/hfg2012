@@ -41,7 +41,7 @@ $(function() {
 
     /* Compass */
     function compassSuccess(heading) {
-        $('#heading').text(heading.magneticHeading + '°');
+        $('#logo').css('-webkit-transform', 'rotate(' + (360-heading.magneticHeading) + 'deg)');
     }
 
     function compassError(error) {
