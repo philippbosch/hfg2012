@@ -58,6 +58,10 @@ p {
     box-shadow: rgba(0,0,0,0.2) 0 1px 1px;
 }
 
+#jqt > * {
+    background-image: url('bg.png');
+}
+
 
 /* Concerts */
 
