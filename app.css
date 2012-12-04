@@ -36,7 +36,7 @@ p {
     text-shadow: rgba(0,0,0,0.5) 0 -1px;
 }
 
-#jqt .back {
+#jqt .back, #jqt .button {
     background: -webkit-linear-gradient(#e52e2e, #911c1c);
     color: #FFF;
     text-shadow: rgba(0,0,0,0.5) 0 -1px;
@@ -46,7 +46,7 @@ p {
         rgba(255,255,255,0.5) 0 1px;
 }
 
-#jqt .back.active {
+#jqt .back.active, #jqt .button.active {
     background: -webkit-linear-gradient(#cc2929, #781717);
     color: #fcb8b8;
     text-shadow: rgba(0,0,0,0.5) 0 -1px;
@@ -88,4 +88,17 @@ p {
 
 #jqt #konzerte .location {
     font-weight: normal;
+}
+
+
+/* Snapshot */
+
+#jqt .button.snap span {
+    display: block;
+    width: 24px;
+    height: 18px;
+    margin-top: 6px;
+    background: white;
+    -webkit-mask-image: url('camera@2x.png');
+    -webkit-mask-size: 24px 18px;
 }
