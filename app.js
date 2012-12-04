@@ -26,7 +26,7 @@ $(function() {
     }
 
     function uploadError(error) {
-        console.log('Error uploading file ' + path + ': ' + error.code);
+        navigator.notification.alert('Error uploading file: ' + error.code);
     }
 
     $('.button.snap').on('tap', function() {
