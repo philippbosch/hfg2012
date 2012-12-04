@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "io.pb.Stones"
+        versionCode="10"
+        version   = "1.0.0">
+
+    <name>Stones</name>
+
+    <description>
+        An example app for HfG CPD workshop 2012.
+    </description>
+
+    <author href="http://pb.io/" email="hello@pb.io">
+        Philipp Bosch
+    </author>
+</widget>
