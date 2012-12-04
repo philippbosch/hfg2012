@@ -11,4 +11,8 @@ $(function() {
             $('#konzerte ul').append('<li><div class="date">' + date.getDate() + '.' + date.getMonth() + '.</div><div class="venue">' + event.venue.name + '</div><div class="location">' + event.venue.location.city + ', ' + event.venue.location.country + '</div></li>');
         });
     });
+
+    $('.button.snap').on('tap', function() {
+        navigator.notification.alert('Take a snapshot!', null, 'Yay');
+    });
 });
