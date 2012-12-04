@@ -102,3 +102,7 @@ p {
     -webkit-mask-image: url('camera@2x.png');
     -webkit-mask-size: 24px 18px;
 }
+
+#jqt .button.snap.active span {
+    background: #fcb8b8;
+}
