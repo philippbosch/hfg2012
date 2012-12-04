@@ -1,7 +1,9 @@
 var jqt = new $.jQTouch();
 
 $(function() {
-    var swipe = new Swipe(document.getElementById('gallery'));
+    $('#fotos').on('pageAnimationEnd', function() {
+        var swipe = new Swipe(document.getElementById('gallery'));
+    });
 
     $.getJSON('http://ws.audioscrobbler.com/2.0/?method=artist.getevents&artist=The+Rolling+Stones&api_key=b8505779457e587972157f50108505dd&format=json', function(data) {
         $.each(data.events.event, function(i, event) {
